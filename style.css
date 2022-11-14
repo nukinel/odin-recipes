@@ -1,3 +1,19 @@
-body {
-    background-color: darkgoldenrod;
+
+body{
+    background-color: rgb(107, 141, 13);
+    color: rgb(23, 80, 187);
 }
+
+[title~=Beef],[title~=Veg] {
+    background-color: rgb(46, 60, 65);
+    color: rgb(221, 182, 151);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+[title~=Chicken] {
+    background-color: rgb(80, 73, 82);
+    color: rgb(147, 153, 122);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
